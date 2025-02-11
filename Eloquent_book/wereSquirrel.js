@@ -4,6 +4,14 @@ function addEntry(events, squirrel){
   journal.push({events, squirrel});
 }
 
-addEntry("work", false);
+addEntry(
+  ["work",
+    "touched tree",
+    "pizza",
+    "running",
+    "television"
+  ],
+  false
+);
 
 console.log(journal);
