@@ -6,4 +6,15 @@ function randomPointOnCircle(radius){
   };
 }
 
-console.log(randomPointOnCircle(2));
+// console.log(randomPointOnCircle(2));
+
+let {name} = {name:"Faraji", age: 23};
+
+// console.log(name);
+
+function city(object){
+  return object.address?.city;
+}
+
+console.log(city({address:{city:"Agadir"}}));
+console.log(city({name:"Vera"}));
